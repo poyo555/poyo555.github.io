@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	background-color: #6E828A;
+}
+header{
+	text-align: center;
+	background-color:#143A52;
+	height: 60px;
+}
+ul{
+	position: relative;
+	width: 80vw;
+	list-style:none;
+	display: flex;
+	color: #CDE3EB;
+	margin: 0 auto;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #CDE3EB;
+}
+@mixin btn{
+	width: 33.3vw;
+	font-family: "main-font";
+	font-size: 25px;
+}
+
+li{
+	@include btn;
+	line-height: 60px;
+	
+}
+h1{
+	text-align: center;
+	font-size: 80px;
+	font-family: "h1-font";
+	line-height: 39vw;
+}
+.header-about{
+	
+}
+@font-face{
+	font-family: "main-font";
+	src: url("./font.ttf");
+}
+@font-face{
+	font-family: "h1-font";
+	src: url("./LOL.ttf")
+}
